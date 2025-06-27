@@ -1,0 +1,117 @@
+Data Cleaning Summary Report
+=================
+
+Number of Common Tokens: 36
+Common Token Examples: liquity-usd, aave, frax-share, orion-protocol, uma, loopring, orbs, cow-protocol, ampleforth, spell-token etc...
+
+Folder: dev_activity
+--------------------------------------------------
+File: dev_activity_1d.csv
+Original size: 729x137
+Cleaned size: 729x59
+Columns removed: 0
+Missing values before cleaning: 10057 (10.07%)
+Missing values after consecutive zeros to NaN conversion: 3189 (7.41%)
+Missing values after cleaning: 3189 (7.41%)
+Outliers detected: 644
+
+File: dev_activity_contributors_count.csv
+Original size: 729x94
+Cleaned size: 729x59
+Columns removed: 0
+Missing values before cleaning: 0 (0.00%)
+Missing values after consecutive zeros to NaN conversion: 3101 (7.21%)
+Missing values after cleaning: 3101 (7.21%)
+Outliers detected: 12
+
+File: github_activity_1d.csv
+Original size: 729x137
+Cleaned size: 729x64
+Columns removed: 0
+Missing values before cleaning: 10057 (10.07%)
+Missing values after consecutive zeros to NaN conversion: 2921 (6.26%)
+Missing values after cleaning: 2921 (6.26%)
+Outliers detected: 732
+
+
+Folder: sentiment
+--------------------------------------------------
+File: social_volume_total.csv
+Original size: 729x135
+Cleaned size: 729x108
+Columns removed: 0
+Missing values before cleaning: 12786 (12.99%)
+Missing values after consecutive zeros to NaN conversion: 4598 (5.84%)
+Missing values after cleaning: 4598 (5.84%)
+Outliers detected: 1699
+
+File: sentiment_weighted_total_1d.csv
+Original size: 729x135
+Cleaned size: 729x117
+Columns removed: 0
+Missing values before cleaning: 10406 (10.57%)
+Missing values after consecutive zeros to NaN conversion: 4694 (5.50%)
+Missing values after cleaning: 4694 (5.50%)
+Outliers detected: 6069
+
+
+Folder: supply_demand
+--------------------------------------------------
+File: exchange_inflow_usd.csv
+Original size: 729x92
+Cleaned size: 729x79
+Columns removed: 0
+Missing values before cleaning: 6694 (9.98%)
+Missing values after consecutive zeros to NaN conversion: 1024 (1.78%)
+Missing values after cleaning: 1024 (1.78%)
+Outliers detected: 3379
+
+File: exchange_outflow_usd.csv
+Original size: 729x92
+Cleaned size: 729x79
+Columns removed: 0
+Missing values before cleaning: 6694 (9.98%)
+Missing values after consecutive zeros to NaN conversion: 1259 (2.19%)
+Missing values after cleaning: 1259 (2.19%)
+Outliers detected: 3358
+
+File: exchange_balance.csv
+Original size: 729x92
+Cleaned size: 729x86
+Columns removed: 0
+Missing values before cleaning: 2024 (3.02%)
+Missing values after consecutive zeros to NaN conversion: 2420 (3.86%)
+Missing values after cleaning: 2420 (3.86%)
+Outliers detected: 5241
+
+
+Folder: whale_effect
+--------------------------------------------------
+File: amount_in_top_holders.csv
+Original size: 728x92
+Cleaned size: 728x79
+Columns removed: 0
+Missing values before cleaning: 3276 (4.89%)
+Missing values after consecutive zeros to NaN conversion: 1806 (3.14%)
+Missing values after cleaning: 1806 (3.14%)
+Outliers detected: 8005
+
+File: whale_transaction_count_100k_usd_to_inf.csv
+Original size: 729x92
+Cleaned size: 729x58
+Columns removed: 0
+Missing values before cleaning: 2024 (3.02%)
+Missing values after consecutive zeros to NaN conversion: 5536 (13.09%)
+Missing values after cleaning: 5536 (13.09%)
+Outliers detected: 1209
+
+File: whale_transaction_volume_100k_usd_to_inf.csv
+Original size: 729x92
+Cleaned size: 729x58
+Columns removed: 0
+Missing values before cleaning: 2024 (3.02%)
+Missing values after consecutive zeros to NaN conversion: 5536 (13.09%)
+Missing values after cleaning: 5536 (13.09%)
+Outliers detected: 2349
+
+

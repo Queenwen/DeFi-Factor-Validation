@@ -1,0 +1,137 @@
+============================================================
+Factor Correlation Analysis Summary
+============================================================
+Analysis Time: 2025-06-27 03:01:30
+Number of Factors: 11
+
+1. IC Correlation Analysis:
+------------------------------
+
+1d Return Period:
+  Strongest Positive Correlation Factors:
+    1. Social Volume: 0.0398
+    2. Weighted Sentiment: 0.0309
+    3. Whale Transaction Count: 0.0197
+  Strongest Negative Correlation Factors:
+    1. Large Holder Amount: -0.0060
+    2. Exchange Outflow: -0.0573
+    3. Exchange Balance: -0.1154
+
+3d Return Period:
+  Strongest Positive Correlation Factors:
+    1. Exchange Inflow: 0.0844
+    2. Social Volume: 0.0787
+    3. Whale Transaction Count: 0.0737
+  Strongest Negative Correlation Factors:
+    1. Developer Count: -0.0056
+    2. Exchange Outflow: -0.1004
+    3. Exchange Balance: -0.1401
+
+7d Return Period:
+  Strongest Positive Correlation Factors:
+    1. Exchange Inflow: 0.1107
+    2. Whale Transaction Count: 0.1056
+    3. Social Volume: 0.0885
+  Strongest Negative Correlation Factors:
+    1. GitHub Activity: -0.0000
+    2. Exchange Balance: -0.1043
+    3. Exchange Outflow: -0.1207
+
+14d Return Period:
+  Strongest Positive Correlation Factors:
+    1. Exchange Inflow: 0.1298
+    2. Whale Transaction Count: 0.1184
+    3. Social Volume: 0.0882
+  Strongest Negative Correlation Factors:
+    1. Development Activity: 0.0053
+    2. Exchange Balance: -0.0784
+    3. Exchange Outflow: -0.1379
+
+21d Return Period:
+  Strongest Positive Correlation Factors:
+    1. Exchange Inflow: 0.1329
+    2. Whale Transaction Count: 0.1270
+    3. Social Volume: 0.0904
+  Strongest Negative Correlation Factors:
+    1. Large Holder Amount: 0.0033
+    2. Exchange Balance: -0.0431
+    3. Exchange Outflow: -0.1411
+
+30d Return Period:
+  Strongest Positive Correlation Factors:
+    1. Exchange Inflow: 0.1351
+    2. Whale Transaction Count: 0.1317
+    3. Social Volume: 0.0854
+  Strongest Negative Correlation Factors:
+    1. Developer Count: 0.0062
+    2. Exchange Balance: -0.0463
+    3. Exchange Outflow: -0.1415
+
+60d Return Period:
+  Strongest Positive Correlation Factors:
+    1. Exchange Inflow: 0.1375
+    2. Whale Transaction Count: 0.1281
+    3. Social Volume: 0.0794
+  Strongest Negative Correlation Factors:
+    1. Weighted Sentiment: -0.0027
+    2. Exchange Balance: -0.0215
+    3. Exchange Outflow: -0.1389
+
+
+2. Quantile Return Analysis:
+------------------------------
+
+Development Activity:
+  Quantile Return Spread: -0.0023
+  Q1 Return: 0.0010
+  Q5 Return: -0.0013
+
+Large Holder Amount:
+  Quantile Return Spread: 0.0037
+  Q1 Return: -0.0016
+  Q5 Return: 0.0021
+
+Whale Transaction Count:
+  Quantile Return Spread: 0.0395
+  Q1 Return: -0.0130
+  Q5 Return: 0.0265
+
+Developer Count:
+  Quantile Return Spread: 0.0006
+  Q1 Return: -0.0006
+  Q5 Return: 0.0000
+
+Social Volume:
+  Quantile Return Spread: 0.0338
+  Q1 Return: -0.0147
+  Q5 Return: 0.0192
+
+Exchange Inflow:
+  Quantile Return Spread: 0.0456
+  Q1 Return: -0.0151
+  Q5 Return: 0.0304
+
+Weighted Sentiment:
+  Quantile Return Spread: 0.0412
+  Q1 Return: -0.0110
+  Q5 Return: 0.0302
+
+GitHub Activity:
+  Quantile Return Spread: -0.0001
+  Q1 Return: -0.0003
+  Q5 Return: -0.0004
+
+Whale Transaction Volume:
+  Quantile Return Spread: 0.0368
+  Q1 Return: -0.0177
+  Q5 Return: 0.0191
+
+Exchange Outflow:
+  Quantile Return Spread: -0.0469
+  Q1 Return: 0.0310
+  Q5 Return: -0.0159
+
+Exchange Balance:
+  Quantile Return Spread: -0.0313
+  Q1 Return: 0.0140
+  Q5 Return: -0.0173

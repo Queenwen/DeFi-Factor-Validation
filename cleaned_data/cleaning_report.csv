@@ -1,0 +1,12 @@
+folder,file_name,original_shape,cleaned_shape,columns_removed_missing,columns_removed_low_activity,missing_values_before,missing_percentage_before,missing_values_after_consecutive_zeros,missing_percentage_after_consecutive_zeros,missing_values_after,missing_percentage_after,outliers_detected
+dev_activity,dev_activity_1d.csv,729x137,729x59,20,58,10057,10.07%,3189,7.41%,3189,7.41%,644
+dev_activity,dev_activity_contributors_count.csv,729x94,729x59,0,35,0,0.00%,3101,7.21%,3101,7.21%,12
+dev_activity,github_activity_1d.csv,729x137,729x64,20,53,10057,10.07%,2921,6.26%,2921,6.26%,732
+sentiment,social_volume_total.csv,729x135,729x108,17,10,12786,12.99%,4598,5.84%,4598,5.84%,1699
+sentiment,sentiment_weighted_total_1d.csv,729x135,729x117,17,1,10406,10.57%,4694,5.50%,4694,5.50%,6069
+supply_demand,exchange_inflow_usd.csv,729x92,729x79,12,1,6694,9.98%,1024,1.78%,1024,1.78%,3379
+supply_demand,exchange_outflow_usd.csv,729x92,729x79,12,1,6694,9.98%,1259,2.19%,1259,2.19%,3358
+supply_demand,exchange_balance.csv,729x92,729x86,4,2,2024,3.02%,2420,3.86%,2420,3.86%,5241
+whale_effect,amount_in_top_holders.csv,728x92,728x79,7,6,3276,4.89%,1806,3.14%,1806,3.14%,8005
+whale_effect,whale_transaction_count_100k_usd_to_inf.csv,729x92,729x58,4,30,2024,3.02%,5536,13.09%,5536,13.09%,1209
+whale_effect,whale_transaction_volume_100k_usd_to_inf.csv,729x92,729x58,4,30,2024,3.02%,5536,13.09%,5536,13.09%,2349
