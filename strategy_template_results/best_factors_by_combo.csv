@@ -1,0 +1,26 @@
+combo,description,factor,rolling_window,return_period,mean_ic,ic_significant,mean_spread,spread_significant,overall_score,rank
+A,Ultra-Short Term Reversal Strategy,sentiment_weighted_total_1d,3,3d,0.09193001829708707,True,,False,0.03198898230809208,1
+A,Ultra-Short Term Reversal Strategy,exchange_outflow_usd,3,3d,-0.06751234549120705,True,,False,0.022603077313546074,2
+A,Ultra-Short Term Reversal Strategy,social_volume_total,3,3d,0.06231004853242818,True,,False,0.021117376811624053,3
+A,Ultra-Short Term Reversal Strategy,exchange_balance,3,3d,-0.060759413653371466,True,,False,0.01845302274819996,4
+A,Ultra-Short Term Reversal Strategy,exchange_inflow_usd,3,3d,0.0461717735700383,True,,False,0.01579802089251325,5
+B,Short Term Trend Continuation Strategy,sentiment_weighted_total_1d,7,7d,0.1033521881227746,True,,False,0.03781444978538413,1
+B,Short Term Trend Continuation Strategy,exchange_outflow_usd,7,7d,-0.09995958779901537,True,,False,0.03519455031431333,2
+B,Short Term Trend Continuation Strategy,exchange_inflow_usd,7,7d,0.08573325168134763,True,,False,0.03055552115497117,3
+B,Short Term Trend Continuation Strategy,social_volume_total,7,7d,0.08390512055072098,True,,False,0.029962789700354653,4
+B,Short Term Trend Continuation Strategy,whale_transaction_count_100k_usd_to_inf,7,7d,0.07915791383129937,True,,False,0.028931386798072733,5
+C,Medium Term Wave Strategy,exchange_outflow_usd,14,14d,-0.1335589120328825,True,,False,0.04881650739432611,1
+C,Medium Term Wave Strategy,exchange_inflow_usd,14,14d,0.12234722113016908,True,,False,0.04511636626116164,2
+C,Medium Term Wave Strategy,whale_transaction_count_100k_usd_to_inf,14,14d,0.1047157877417263,True,,False,0.04001512307191181,3
+C,Medium Term Wave Strategy,sentiment_weighted_total_1d,14,14d,0.10421719314680643,True,,False,0.03956838055319373,4
+C,Medium Term Wave Strategy,social_volume_total,14,14d,0.10232613635812376,True,,False,0.03850051343230957,5
+D,Pullback After High Sentiment,exchange_outflow_usd,30,30d,-0.14840748351225924,True,,False,0.05822162654461633,1
+D,Pullback After High Sentiment,exchange_inflow_usd,30,30d,0.14069304133391392,True,,False,0.05549332526158257,2
+D,Pullback After High Sentiment,whale_transaction_count_100k_usd_to_inf,30,30d,0.1254981617067378,True,,False,0.051448829436525456,3
+D,Pullback After High Sentiment,whale_transaction_volume_100k_usd_to_inf,30,30d,0.12393895795994263,True,,False,0.04742758070969171,4
+D,Pullback After High Sentiment,social_volume_total,30,30d,0.11605838420034888,True,,False,0.04713107854165226,5
+E,Medium Term Reversal/Mean Reversion,exchange_outflow_usd,60,60d,-0.1580808525243601,True,,False,0.06554058559613231,1
+E,Medium Term Reversal/Mean Reversion,exchange_inflow_usd,60,60d,0.1530415887078537,True,,False,0.06386371277063235,2
+E,Medium Term Reversal/Mean Reversion,social_volume_total,60,60d,0.12753273904981408,True,,False,0.05644734544859094,3
+E,Medium Term Reversal/Mean Reversion,whale_transaction_count_100k_usd_to_inf,60,60d,0.12779952904862557,True,,False,0.05638722292496419,4
+E,Medium Term Reversal/Mean Reversion,whale_transaction_volume_100k_usd_to_inf,60,60d,0.13041561673636687,True,,False,0.05328102085221522,5
