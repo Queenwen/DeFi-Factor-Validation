@@ -4,7 +4,7 @@ import os # 确保导入 os 模块
 OUTPUT_FILE = "active_defi_tokens.csv"
 
 # Santiment API 密钥
-SANTIMENT_API_KEY = "3pjo2oth3cmsswiy_rmd2nopusshyefho"
+SANTIMENT_API_KEY = "YOUR SANTIMENT API KEY"
 
 # GraphQL API 端点
 SANTIMENT_GRAPHQL_URL = "https://api.santiment.net/graphql"
